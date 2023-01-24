@@ -11,6 +11,20 @@
     }
 
     
+
+    
+}
+
+.features::before {
+  position: absolute;
+  z-index: -1;
+  bottom: 30px;
+  left: 0;
+  content: '';
+  width: 224px;
+  height: 224px;
+  background-image: url('/images/decor.png');
+  background-repeat: no-repeat;
 }
 
 .features::after {
@@ -25,15 +39,5 @@
   transform: rotate(180deg);
 }
 
-.features::before {
-  position: absolute;
-  z-index: -1;
-  bottom: 30px;
-  left: 0;
-  content: '';
-  width: 224px;
-  height: 224px;
-  background-image: url('./images/decor.png');
-  background-repeat: no-repeat;
-}
+
 
