@@ -1,0 +1,19 @@
+.social-item__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: var(--social-bg-color);
+  fill: var(--green-text-color);
+  transition: background-color 250ms linear, fill 250ms linear;
+}
+
+.social-item__link:hover,
+.social-item__link:focus {
+
+  background-color: var(--green-text-color);
+  fill: var(--social-bg-color);
+
+}

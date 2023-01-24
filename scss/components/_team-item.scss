@@ -1,0 +1,25 @@
+.team-item {
+  flex-basis: calc((100% - 64px) / 3);
+  background-color: var(--card-color);
+  border-radius: 8px;
+  padding: 24px 32px;
+
+&__text {
+    padding: 0;
+    margin: 0;
+  }
+
+  &__title {
+    padding: 0;
+    margin: 0;
+  }
+
+
+  &__quote {
+    padding: 0;
+    margin: 0;
+  }
+
+
+}
+

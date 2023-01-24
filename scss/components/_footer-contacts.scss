@@ -1,0 +1,24 @@
+.footer-contacts {
+  max-width: 268px;
+
+
+  & p {
+  
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+  
+    &__text {
+      margin-bottom: 16px;
+    }
+  
+    &__copyright {
+      margin-bottom: 16px;
+    }
+  
+    &__reserved {
+      margin-bottom: 16px;
+    }
+}
+

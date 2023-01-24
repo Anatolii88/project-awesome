@@ -1,0 +1,19 @@
+.header--logo {
+  animation-name: rotate;
+  animation-duration: 1000ms;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.footer--logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}

@@ -1,0 +1,15 @@
+.form-field {
+  margin-bottom: 16px;
+
+  &__label {
+      display: inline-block;
+      margin-bottom: 8px;
+  
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.6;
+      color: var(--text-color);
+  
+    }
+}
+

@@ -1,0 +1,27 @@
+.services-container {
+  width: 48px;
+  height: 48px;
+  padding: 12px;
+  margin-bottom: 16px;
+  background-color: var(--card-color);
+  border-radius: 8px;
+  transition: background-color 250ms linear;
+
+
+
+&__title {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 8px;
+    color: var(--nav-text-color);
+  }
+
+  &__text {
+    padding: 0;
+    margin: 0;
+  }
+
+}
+
+
+

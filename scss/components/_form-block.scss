@@ -1,0 +1,37 @@
+.form-block {
+  position: relative;
+
+
+  &__input {
+      width: 100%;
+      height: 40px;
+      padding-left: 40px;
+      padding-right: 12px;
+      outline: none;
+      border: 1px solid var(--input-color);
+      border-radius: 4px;
+      cursor: pointer;
+  
+    }
+  
+  
+  
+    &__input:hover,
+    &__input:focus {
+      border-color: var(--green-text-color);
+    }
+  
+    &__input:hover,
+    &__input:focus+.form-block__icon {
+      fill: var(--green-text-color);
+    }
+  
+  
+    &__icon {
+      position: absolute;
+      top: 50%;
+      left: 12px;
+      transform: translateY(-50%)
+    }
+}
+

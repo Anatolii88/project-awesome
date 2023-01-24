@@ -1,0 +1,19 @@
+.footer-support__title {
+  margin-bottom: 24px;
+  color: var(--green-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+
+.footer-support__item {
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.footer-support__item:not(:last-child) {
+  margin-bottom: 12px;
+}

@@ -1,0 +1,42 @@
+.form-terms {
+  margin-bottom: 24px;
+
+  &__label {
+      position: relative;
+      padding-left: 24px;
+  
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.7;
+      cursor: pointer;
+    }
+  
+    &__input {
+      appearance: none;
+    }
+  
+    &__icon {
+      position: absolute;
+      margin-top: 3px;
+      margin-right: 8px;
+      fill: transparent;
+      border: 2px solid var(--text-color);
+      border-radius: 2px;
+    }
+  
+    &__input:checked+.form-terms__icon {
+      fill: var(--bg-color);
+      background-color: var(--green-text-color);
+      border-color: var(--green-text-color);
+    }
+  
+  
+    &__link {
+      color: var(--green-text-color);
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.7;
+      text-decoration: underline;
+    }
+}
+
