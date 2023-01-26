@@ -1,0 +1,17 @@
+.aboutus-block {
+  position: relative;
+
+}
+
+.aboutus-block::before {
+  content: '';
+  width: 570px;
+  height: 530px;
+  background-image: linear-gradient(197.92deg, rgba(239, 128, 49, 0) -227.37%, rgba(239, 128, 49, 0.15) 1.58%, rgba(239, 128, 49, 0) 103.02%);;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  z-index: -1;
+}
+
+
